@@ -6,12 +6,12 @@
 //
 import SwiftUI
 
-struct VerbView: View {
+struct NounView: View {
     var body: some View {
         NavigationView {
             VStack {
-                NavigationLink(destination: VerbView()) {
-                    Text("Go to Verb View")
+                NavigationLink(destination: NounView()) {
+                    Text("Go to Noun View")
                 }
                 .padding()
             }
