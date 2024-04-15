@@ -10,8 +10,8 @@ struct NounView: View {
     var body: some View {
         NavigationView {
             VStack {
-                NavigationLink(destination: NounView()) {
-                    Text("Go to Noun View")
+                NavigationLink(destination: VerbView()) {
+                    Text("Go to Verb View")
                 }
                 .padding()
             }
